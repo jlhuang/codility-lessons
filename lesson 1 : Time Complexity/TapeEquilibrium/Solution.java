@@ -6,9 +6,10 @@
 
 class Solution {
     public int solution(int[] A) {
-            // write your code in Java SE 8
+        // write your code in Java SE 8
         int len = A.length;
         int[] sum = new int[len];
+        // get the sum from 0 to n and store it in the sum[n]
         sum[0] = A[0];
         for (int i = 1; i < len; i++) {
                     sum[i] = sum[i-1] + A[i];
