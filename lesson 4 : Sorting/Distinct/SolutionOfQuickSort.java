@@ -25,13 +25,13 @@ class Solution {
     // the worst case, but still the solution get 100/100 on codility.
     public void quickSort(int[] array, int start, int end) {
         if (start <= end) {
-            int index = partion(array, start, end);
+            int index = partition(array, start, end);
             quickSort(array, start, index - 1);
             quickSort(array, index + 1, end);
         }
     }
 
-    public int partion(int[] array, int start, int end) {
+    public int partition(int[] array, int start, int end) {
         int pivot = array[start];
         int mark = start;
         for (int i = start + 1; i <= end; i++) {
