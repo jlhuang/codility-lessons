@@ -7,6 +7,8 @@
 class Solution {
     public int solution(int[] A) {
         // write your code in Java SE 8
+        // the original version is at
+        // http://stackoverflow.com/questions/4801242/algorithm-to-calculate-number-of-intersecting-discs
         int N = A.length;
         if (N < 2)
             return 0;

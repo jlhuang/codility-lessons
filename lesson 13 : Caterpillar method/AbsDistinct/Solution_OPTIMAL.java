@@ -7,6 +7,8 @@
 class Solution {
     public int solution(int[] A) {
         // write your code in Java SE 8
+        // the original version is at
+        // http://codesays.com/2014/solution-to-abs-distinct-by-codility/
         // this algorithm also uses the caterpillar method but it is easier to
         // understand, and the time complexity is still O(N*log(N)).
         int N = A.length;

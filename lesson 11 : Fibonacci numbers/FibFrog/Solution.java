@@ -9,6 +9,8 @@ import java.util.ArrayList;
 class Solution {
     public int solution(int[] A) {
         // write your code in Java SE 8
+        // the original version is at
+        // http://codesays.com/2014/solution-to-fib-frog-by-codility/
         int N = A.length;
         int[] fib = new int[N + 4];
         boolean[] visit = new boolean[N];

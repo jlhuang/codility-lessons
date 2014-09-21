@@ -7,6 +7,8 @@
 class Solution {
     public int solution(int[] A) {
         // write your code in Java SE 8
+        // the original version is at
+        // http://stackoverflow.com/questions/2187431/max-product-of-the-three-numbers-for-a-given-array-of-size-n
         int N = A.length;
         // the variable stores the minimal negative element
         int negativeMin = 0;
